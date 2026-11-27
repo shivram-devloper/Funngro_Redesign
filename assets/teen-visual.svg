@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 530" role="img" aria-labelledby="title desc">
+  <title id="title">Teenlancer project workspace</title><desc id="desc">A young contributor uses a laptop to review a project brief surrounded by simple content, feedback and campaign cards.</desc>
+  <defs><filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="12" stdDeviation="13" flood-color="#173c32" flood-opacity=".13"/></filter><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#eff6d8"/><stop offset="1" stop-color="#dcebb8"/></linearGradient></defs>
+  <ellipse cx="315" cy="465" rx="215" ry="23" fill="#ccd9b3" opacity=".65"/><circle cx="310" cy="259" r="207" fill="url(#bg)"/>
+  <circle cx="310" cy="259" r="173" fill="none" stroke="#c0d29e" stroke-dasharray="5 10"/>
+  <!-- Teen character -->
+  <g transform="translate(220 123)">
+    <path d="M38 299c3-81 34-123 94-123s94 42 99 123" fill="#1e7455"/>
+    <path d="M72 193l61 48 62-48 26 106H44z" fill="#f4f7e9"/><path d="m104 218 29 23 29-23" fill="none" stroke="#d5f16d" stroke-width="5" stroke-linecap="round"/>
+    <rect x="116" y="145" width="29" height="43" rx="12" fill="#d99d77"/><ellipse cx="130" cy="105" rx="51" ry="57" fill="#e7b18b"/>
+    <path d="M80 108c-6-42 11-73 50-76 39-3 60 26 54 66-14-16-31-22-50-22-22 1-36 12-54 32z" fill="#273b32"/>
+    <path d="M104 111h8m35 0h8" stroke="#35483c" stroke-width="3" stroke-linecap="round"/><path d="M116 132c9 7 19 7 28 0" fill="none" stroke="#a55d49" stroke-width="3" stroke-linecap="round"/>
+    <path d="M63 225 22 272m183-47 41 47" stroke="#d99d77" stroke-width="16" stroke-linecap="round"/>
+  </g>
+  <!-- Laptop foreground -->
+  <g filter="url(#shadow)" transform="translate(147 315)">
+    <rect x="18" y="0" width="300" height="132" rx="11" fill="#173c32"/>
+    <rect x="29" y="11" width="278" height="110" rx="5" fill="#f8fbf2"/>
+    <rect x="44" y="27" width="82" height="9" rx="4" fill="#173c32"/><rect x="44" y="44" width="145" height="5" rx="2.5" fill="#d7e1d5"/><rect x="44" y="56" width="121" height="5" rx="2.5" fill="#d7e1d5"/>
+    <rect x="44" y="76" width="111" height="31" rx="5" fill="#e9f3c7"/><rect x="164" y="76" width="128" height="31" rx="5" fill="#edf2e9"/><path d="M58 97l12-11 11 8 16-13" fill="none" stroke="#1e7455" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M2 132h333l-25 18H27z" fill="#8ba197"/><path d="M127 136h82" stroke="#d2ddd5" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <!-- Floating project cards -->
+  <g filter="url(#shadow)" transform="translate(48 147)">
+    <rect width="119" height="111" rx="10" fill="#fff"/><rect x="12" y="12" width="95" height="48" rx="6" fill="#d9eaa9"/><path d="M30 47l14-19 11 12 16-19 16 26" fill="none" stroke="#1e7455" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><rect x="13" y="74" width="58" height="6" rx="3" fill="#173c32"/><rect x="13" y="87" width="83" height="5" rx="2.5" fill="#e1e8dc"/>
+  </g>
+  <g filter="url(#shadow)" transform="translate(437 171)">
+    <rect width="128" height="103" rx="10" fill="#fff"/><circle cx="28" cy="30" r="14" fill="#f2c5a6"/><path d="m22 30 5 5 9-11" fill="none" stroke="#173c32" stroke-width="2.5" stroke-linecap="round"/><rect x="51" y="24" width="60" height="6" rx="3" fill="#173c32"/><rect x="51" y="37" width="48" height="5" rx="2.5" fill="#dce5dc"/><rect x="15" y="62" width="96" height="25" rx="5" fill="#edf5d5"/><text x="27" y="78" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#43634a">SUBMIT WORK</text>
+  </g>
+  <g fill="#1e7455"><circle cx="107" cy="327" r="5"/><circle cx="517" cy="347" r="4"/><circle cx="196" cy="93" r="4"/></g>
+  <g fill="#d5f16d"><path d="m470 88 5 12 12 5-12 5-5 12-5-12-12-5 12-5z"/><path d="m110 278 4 9 9 4-9 4-4 9-4-9-9-4 9-4z"/></g>
+</svg>

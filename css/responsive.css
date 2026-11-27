@@ -1,0 +1,111 @@
+@media (max-width: 1050px) {
+  .container { width: min(var(--max-width), calc(100% - 48px)); }
+  .primary-nav { gap: 21px; }
+  .hero-grid { min-height: 570px; gap: 12px; }
+  .note-top, .teen-note-top { right: -1%; }
+  .intro-grid, .principles-grid, .credibility-grid, .teen-intro-grid, .skills-grid, .safety-grid, .faq-grid { gap: 58px; }
+  .model-flow { grid-template-columns: 1fr 28px 1fr 28px 1fr; gap: 10px; }
+  .model-card { padding: 24px 20px; }
+  .journey-grid { gap: 12px; }
+  .journey-step { padding: 22px 18px; }
+}
+
+@media (max-width: 800px) {
+  .container { width: min(var(--max-width), calc(100% - 40px)); }
+  .section { padding: 82px 0; }
+  .header-inner { min-height: 70px; }
+  .menu-toggle { width: 44px; height: 44px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; border: 1px solid var(--line); border-radius: 5px; background: white; cursor: pointer; }
+  .menu-toggle span { display: block; width: 18px; height: 2px; background: var(--forest); transition: transform .2s ease; }
+  .menu-toggle[aria-expanded="true"] span:first-child { transform: translateY(4px) rotate(45deg); }
+  .menu-toggle[aria-expanded="true"] span:last-child { transform: translateY(-4px) rotate(-45deg); }
+  .primary-nav { position: absolute; top: 69px; left: 0; right: 0; display: none; align-items: stretch; gap: 0; padding: 10px 20px 20px; background: white; border-bottom: 1px solid var(--line); box-shadow: 0 18px 22px rgba(17,48,38,.08); }
+  .primary-nav.is-open { display: flex; flex-direction: column; }
+  .nav-link { padding: 13px 8px; border-bottom: 1px solid #eef1eb; }
+  .nav-cta { margin-top: 13px; align-self: flex-start; }
+  .hero-grid { min-height: auto; grid-template-columns: 1fr; gap: 24px; padding-top: 73px; padding-bottom: 50px; }
+  .hero-copy { max-width: 670px; }
+  .hero-art-wrap { width: min(100%, 610px); margin: 0 auto; }
+  .hero-art { width: 95%; }
+  .orbit-one { width: 360px; height: 360px; }
+  .orbit-two { width: 440px; height: 440px; }
+  .floating-note { padding: 10px 12px; }
+  .note-top, .teen-note-top { top: 9%; right: 1%; }
+  .note-bottom, .teen-note-bottom { bottom: 8%; left: 1%; }
+  .proof-grid { grid-template-columns: repeat(3,1fr); padding-top: 23px; padding-bottom: 23px; gap: 13px; }
+  .proof-item { flex-direction: column; gap: 0; }
+  .proof-note { grid-column: 1 / -1; justify-self: start; max-width: none; text-align: left; }
+  .intro-grid, .teen-intro-grid, .principles-grid, .credibility-grid, .skills-grid, .safety-grid, .faq-grid { grid-template-columns: 1fr; gap: 30px; }
+  .intro-copy, .teen-intro-grid > div:last-child { padding-top: 0; }
+  .mission-section { padding-top: 67px; }
+  .mission-card { min-height: 300px; padding: 27px; }
+  .mission-card h3 { margin-top: 52px; font-size: 25px; }
+  .model-flow { grid-template-columns: 1fr; gap: 10px; margin-top: 40px; }
+  .model-card { min-height: auto; }
+  .model-icon { margin-bottom: 18px; }
+  .flow-connector { height: 28px; flex-direction: row; justify-content: center; gap: 11px; }
+  .flow-connector i { width: 45px; }
+  .principles-heading, .safety-copy { position: static; }
+  .credibility-grid { gap: 45px; }
+  .credibility-aside { padding-left: 0; border-left: 0; }
+  .closing-inner, .teen-cta-inner { align-items: start; flex-direction: column; gap: 28px; }
+  .closing-actions, .teen-cta-inner > div:last-child { width: 100%; max-width: 460px; }
+  .footer-main { grid-template-columns: 1fr 1fr; gap: 35px; }
+  .footer-brand-col { grid-column: 1 / -1; }
+  .category-band-inner { min-height: auto; align-items: flex-start; flex-direction: column; gap: 12px; padding-top: 20px; padding-bottom: 20px; }
+  .category-band ul { gap: 8px 15px; }
+  .section-heading-split { flex-direction: column; align-items: flex-start; gap: 18px; }
+  .section-heading-split .section-subtitle { width: 100%; max-width: 560px; }
+  .opportunity-grid { grid-template-columns: repeat(2,1fr); }
+  .journey-grid { grid-template-columns: repeat(2,1fr); }
+  .skills-art { max-width: 500px; margin-inline: auto; }
+  .faq-grid { gap: 30px; }
+  .faq-heading p:not(.eyebrow) { max-width: 480px; }
+}
+
+@media (max-width: 520px) {
+  .container { width: calc(100% - 36px); }
+  .section { padding: 66px 0; }
+  .brand-mark { width: 33px; height: 33px; }
+  .brand-name { font-size: 21px; }
+  h1 { font-size: clamp(48px, 14vw, 65px); }
+  .hero-grid { padding-top: 56px; padding-bottom: 34px; }
+  .hero-lede { font-size: 15px; }
+  .hero-actions { align-items: flex-start; flex-direction: column; gap: 17px; }
+  .hero-footnote { margin-top: 29px; font-size: 10px; }
+  .hero-art-wrap { margin-top: 3px; }
+  .floating-note { gap: 8px; padding: 8px 9px; }
+  .floating-note strong { font-size: 9px; }
+  .floating-note small { font-size: 8px; }
+  .note-icon { width: 25px; height: 25px; font-size: 13px; }
+  .note-top, .teen-note-top { top: 7%; right: -3%; }
+  .note-bottom, .teen-note-bottom { bottom: 5%; left: -3%; }
+  .orbit-one { width: 250px; height: 250px; }
+  .orbit-two { width: 310px; height: 310px; }
+  .teen-sunburst { width: 290px; height: 290px; }
+  .proof-grid { grid-template-columns: 1fr 1fr; }
+  .proof-item:last-of-type { grid-column: 1 / -1; }
+  .proof-number { font-size: 19px; }
+  .proof-label { font-size: 10px; }
+  .section-heading h2, .section-heading-center h2, .principles-heading h2, .credibility-copy h2, .closing-inner h2, .teen-intro-grid h2, .skills-copy h2, .safety-copy h2, .faq-heading h2, .teen-cta-inner h2 { font-size: 37px; }
+  .intro-copy .body-large, .teen-intro-grid .body-large, .skills-copy .body-large { font-size: 17px; }
+  .section-topline { align-items: flex-start; flex-direction: column; gap: 0; }
+  .mission-grid { grid-template-columns: 1fr; }
+  .mission-card { min-height: 280px; }
+  .mission-card h3 { max-width: 300px; font-size: 24px; }
+  .model-card { padding: 22px 21px; }
+  .principle-item { grid-template-columns: 30px 1fr 18px; gap: 12px; padding: 22px 0; }
+  .credibility-aside { padding: 0; }
+  .credibility-fact { grid-template-columns: 65px 1fr; }
+  .closing-cta, .teen-cta-section { padding: 68px 0; }
+  .footer-main { grid-template-columns: 1fr 1fr; gap: 27px 20px; }
+  .footer-bottom { align-items: flex-start; flex-direction: column; gap: 7px; }
+  .opportunity-grid { grid-template-columns: 1fr; gap: 12px; }
+  .opportunity-card { min-height: 320px; padding: 20px 22px; }
+  .opportunity-visual { height: 145px; }
+  .journey-grid { grid-template-columns: 1fr; gap: 11px; }
+  .journey-step { min-height: auto; padding: 22px 21px; }
+  .journey-icon { margin-bottom: 20px; }
+  .journey-outcome { align-items: flex-start; padding: 16px; }
+  .safety-points article { grid-template-columns: 28px 1fr; gap: 12px; }
+  .faq-item summary { font-size: 13px; }
+}
